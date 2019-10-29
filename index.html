@@ -5,28 +5,32 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css"
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fascinate+Inline&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="container">
         <div class="row">
             <header class="col-12 text-center">
-                <div class="row">
-                    <h1 class="col-10">Video Game Giphy Search</h1>
+                <div class="row" id="title">
+                    <h1 class="col-10 text-center">Video Game Giphy Search</h1>
                 </div>
-                <div class="row">
+                <div class="row" id="instructions">
                     <p class="col-10">Enter a video game you enjoy and receive 10 GIFs about that game!</p>
                 </div>
             </header>
         </div>
-        <div class="row">
+        <div class="row boxofBoxes">
             <div id="boxBox"></div>
         </div>
-        <div class="row">
+        <div class="row text-center">
             <input type="text" id="userInput">
             <button id="submitButton" type="submit" value="Submit">
                 Submit!
             </button>
+        </div>
+        <div class="row" id="imgHolder">
         </div>
     </div>
 </body>

@@ -1,0 +1,30 @@
+#title{
+    font-family: 'Fascinate Inline', cursive;
+background-image:url("title background.jpg");
+color:rgb(235, 232, 232);
+width:80%;
+height:20vw;
+}
+#imgHolder{
+    margin:auto;
+}
+h1{
+    font-size:60px;
+}
+body{
+    background-color: #7ffdf3;
+height:100%;
+}
+.container{
+    margin:auto;
+    height: 1000px;
+}
+#instructions{
+    font-family: 'Teko', sans-serif;
+}
+.boxofBoxes{
+    margin:auto;
+}
+.holdImg{
+    padding:5px;
+}
